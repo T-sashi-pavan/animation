@@ -1,0 +1,40 @@
+.container{
+
+position: relative;
+top: 200px;
+left:450px;
+width: 200px;
+height: 100px;
+border-radius: 100%;
+animation-name: spinner;
+animation-duration: 1000ms;
+animation-iteration-count:infinite;
+animation-timing-function: linear;
+}
+@keyframes spinner {
+    0%{
+        border-top: 40px solid red;
+       
+    }
+    25%{
+        border-right: 40px solid gold;
+    }
+        
+    50%{
+   border-left:  40px solid orange;
+
+    }
+    75%{
+        border-bottom: 40px solid blue;
+        
+    }
+    100%{
+        border-top: 40px solid indigo;
+        
+    }
+    
+    }
+    .body{
+        background-color: black;
+    }
+
